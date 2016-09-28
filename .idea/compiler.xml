@@ -27,9 +27,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="CucumberSelenium" target="1.5" />
-      <module name="Generic" target="1.5" />
-      <module name="SalaryCalc" target="1.5" />
+      <module name="CucumberSelenium" target="1.8" />
+      <module name="Generic" target="1.8" />
+      <module name="SalaryCalc" target="1.8" />
       <module name="WordPress" target="1.5" />
     </bytecodeTargetLevel>
   </component>

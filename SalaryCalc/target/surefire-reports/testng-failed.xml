@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [smoke.MainPageSmokeTest]">
-  <test name="Command line test" preserve-order="false">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Knorrium.info - WordPress Demo]">
+  <parameter name="selenium.driver" value="/Users/admin/Desktop/CucumberSelenium/Generic/src/main/resources/chromedriver"/>
+  <parameter name="selenium.browser" value="webdriver.chrome.driver"/>
+  <parameter name="selenium.url" value="http://demo.opensourcecms.com/wordpress/"/>
+  <test name="Write new post">
     <classes>
-      <class name="smoke.MainPageSmokeTest"/>
+      <class name="smoke.MainPageSmokeTest">
+        <methods>
+          <exclude name="clickOnSalaryCalculator"/>
+        </methods>
+      </class> <!-- smoke.MainPageSmokeTest -->
     </classes>
-  </test> <!-- Command line test -->
-</suite> <!-- Failed suite [smoke.MainPageSmokeTest] -->
+  </test> <!-- Write new post -->
+</suite> <!-- Failed suite [Knorrium.info - WordPress Demo] -->
