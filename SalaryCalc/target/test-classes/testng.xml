@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Knorrium.info - WordPress Demo" verbose="10">
+
+    <parameter name="selenium.driver" value="/Users/admin/Desktop/CucumberSelenium/Generic/src/main/resources/chromedriver"/>
+    <parameter name="selenium.browser" value="webdriver.chrome.driver"/>
+    <parameter name="selenium.url" value="http://demo.opensourcecms.com/wordpress/"/>
+
+    <test name="Write new post" preserve-order="true">
+        <classes>
+            <class name="smoke.MainPageSmokeTest">
+                <methods>
+                    <exclude name="clickOnSalaryCalculator"/>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
