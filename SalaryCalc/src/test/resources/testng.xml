@@ -4,15 +4,18 @@
     <parameter name="selenium.driver" value="/Users/admin/Desktop/CucumberSelenium/Generic/src/main/resources/chromedriver"/>
     <parameter name="selenium.browser" value="webdriver.chrome.driver"/>
     <parameter name="selenium.url" value="http://demo.opensourcecms.com/wordpress/"/>
+    <parameter name="user" value="riz_mamura"/>
+    <parameter name="key" value="cfbe4bb9-aae8-45b9-9924-ea0992586dd9"/>
 
-    <test name="Write new post" preserve-order="true">
+
+    <test name="Write new post" preserve-order="true" enabled="false">
         <classes>
-            <class name="smoke.MainPageSmokeTest">
+            <!--class name="smoke.MainPageSmokeTest">
                 <methods>
                     <exclude name="clickOnSalaryCalculator"/>
 
                 </methods>
-            </class>
+            </class-->
 
             <class name="cucumber.TestRunnerWithTestNG"/>
 

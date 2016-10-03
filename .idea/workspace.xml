@@ -2,45 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="963bf46d-be0b-4fdf-a0fe-6f3b902bee63" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_3_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_phantomjsdriver_1_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_20.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_neko_htmlunit_2_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_htmlunit_driver_2_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_jetty_repacked_9_2_13_v20160825.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_0_0_beta3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_0_0_beta3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_0_0_beta3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_0_0_beta3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_0_0_beta3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_0_0_beta3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_0_0_beta3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_0_0_beta3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_0_0_beta3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_server_3_0_0_beta3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_0_0_beta3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_15.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SalaryCalc/target/test-classes/cucumber/TestRunner.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SalaryCalc/src/test/java/cucumber/TestRunner.java" afterPath="$PROJECT_DIR$/SalaryCalc/src/test/java/cucumber/TestRunnerWithJUnit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SalaryCalc/target/classes/pageobj/ResultPage.class" afterPath="$PROJECT_DIR$/SalaryCalc/target/classes/pageobj/ResultPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SalaryCalc/target/test-classes/cucumber/stepdef/StepDefinitions.class" afterPath="$PROJECT_DIR$/SalaryCalc/target/test-classes/cucumber/stepdef/StepDefinitions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/Generic.iml" afterPath="$PROJECT_DIR$/Generic/Generic.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/pom.xml" afterPath="$PROJECT_DIR$/Generic/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SalaryCalc/SalaryCalc.iml" afterPath="$PROJECT_DIR$/SalaryCalc/SalaryCalc.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SalaryCalc/src/main/java/pageobj/ResultPage.java" afterPath="$PROJECT_DIR$/SalaryCalc/src/main/java/pageobj/ResultPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SalaryCalc/src/test/features/Smoke.feature" afterPath="$PROJECT_DIR$/SalaryCalc/src/test/features/Smoke.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/src/main/java/config/BaseConfiguration.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/config/BaseConfiguration.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SalaryCalc/src/test/java/cucumber/stepdef/StepDefinitions.java" afterPath="$PROJECT_DIR$/SalaryCalc/src/test/java/cucumber/stepdef/StepDefinitions.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SalaryCalc/src/test/resources/testng.xml" afterPath="$PROJECT_DIR$/SalaryCalc/src/test/resources/testng.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SalaryCalc/target/test-classes/Smoke.feature" afterPath="$PROJECT_DIR$/SalaryCalc/target/test-classes/Smoke.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SalaryCalc/target/test-classes/testng.xml" afterPath="$PROJECT_DIR$/SalaryCalc/target/test-classes/testng.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="CucumberSelenium.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,28 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestRunnerWithJUnit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SalaryCalc/src/test/java/cucumber/TestRunnerWithJUnit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Smoke.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SalaryCalc/src/test/features/Smoke.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TestDataModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SalaryCalc/src/main/java/testdata/TestDataModel.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExcelDataManipulation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Util/ExcelDataManipulation.java">
+      <file leaf-file-name="TestRunnerWithJUnit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SalaryCalc/src/test/java/cucumber/TestRunnerWithJUnit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,35 +77,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SalaryCalc/src/test/resources/testng.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StepDefinitions.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StepDefinitions.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SalaryCalc/src/test/java/cucumber/stepdef/StepDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="194" column="100" selection-start-line="194" selection-start-column="100" selection-end-line="194" selection-end-column="100" />
+            <state relative-caret-position="420">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1211#1212#0" expanded="true" />
-                <element signature="e#1240#1241#0" expanded="true" />
+                <element signature="e#1834#1835#0" expanded="true" />
+                <element signature="e#1863#1864#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/config/BaseConfiguration.java">
+      <file leaf-file-name="Base.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SalaryCalc/src/test/java/cucumber/stepdef/Base.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SalaryCalc/src/test/resources/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="69" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -181,13 +125,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="MainPageSmokeTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SalaryCalc/src/test/java/smoke/MainPageSmokeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/config/BaseConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="485">
+              <caret line="56" column="54" selection-start-line="48" selection-start-column="8" selection-end-line="56" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -209,7 +173,6 @@
         <option value="$PROJECT_DIR$/SalaryCalc/src/test/java/smoke/WordPressExample.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/config/ExampleConfig.java" />
         <option value="$PROJECT_DIR$/SalaryCalc/src/test/java/smoke/MainPageSmokeTest.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/config/BaseConfiguration.java" />
         <option value="$PROJECT_DIR$/SalaryCalc/src/main/java/pageobj/MainPageObject.java" />
         <option value="$PROJECT_DIR$/SalaryCalc/src/test/resources/settings.xml" />
         <option value="$PROJECT_DIR$/SalaryCalc/src/main/java/pageobj/DataInputPage.java" />
@@ -222,16 +185,17 @@
         <option value="$PROJECT_DIR$/SalaryCalc/src/test/java/cucumber/TestRunnerWithJUnit.java" />
         <option value="$PROJECT_DIR$/SalaryCalc/src/test/java/cucumber/TestRunnerWithTestNG.java" />
         <option value="$PROJECT_DIR$/SalaryCalc/src/test/features/Smoke1.feature" />
-        <option value="$PROJECT_DIR$/SalaryCalc/src/test/java/cucumber/stepdef/Base.java" />
         <option value="$PROJECT_DIR$/SalaryCalc/src/test/java/cucumber/stepdef/StepDefWithDataTable.java" />
-        <option value="$PROJECT_DIR$/SalaryCalc/src/test/java/cucumber/stepdef/StepDefinitions.java" />
         <option value="$PROJECT_DIR$/SalaryCalc/src/test/features/Smoke.feature" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/Util/ExcelDataManipulation.java" />
         <option value="$PROJECT_DIR$/SalaryCalc/src/main/java/testdata/TestDataGenerator.java" />
         <option value="$PROJECT_DIR$/SalaryCalc/src/main/java/testdata/TestDataEntity.java" />
         <option value="$PROJECT_DIR$/SalaryCalc/src/main/java/testdata/TestDataGen.java" />
         <option value="$PROJECT_DIR$/SalaryCalc/src/main/java/testdata/TestDataGenImpl.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/config/BaseConfiguration.java" />
         <option value="$PROJECT_DIR$/SalaryCalc/src/test/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/SalaryCalc/src/test/java/cucumber/stepdef/Base.java" />
+        <option value="$PROJECT_DIR$/SalaryCalc/src/test/java/cucumber/stepdef/StepDefinitions.java" />
       </list>
     </option>
   </component>
@@ -648,7 +612,7 @@
       <recent name="$PROJECT_DIR$/Generic/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/admin/Desktop/CucumberSelenium/SalaryCalc/src/test/resources/testng.xml">
+  <component name="RunManager" selected="JUnit.TestRunnerWithJUnit">
     <configuration default="false" name="Feature: Smoke" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1065,8 +1029,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG./Users/admin/Desktop/CucumberSelenium/SalaryCalc/src/test/resources/testng.xml" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestRunnerWithJUnit" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestRunnerWithJUnit" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG./Users/admin/Desktop/CucumberSelenium/SalaryCalc/src/test/resources/testng.xml" />
         <item index="2" class="java.lang.String" itemvalue="Application.TestDataGenerator" />
         <item index="3" class="java.lang.String" itemvalue="Cucumber java.Feature: Smoke" />
         <item index="4" class="java.lang.String" itemvalue="Cucumber java.Feature: Smoke1" />
@@ -1087,34 +1051,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRunnerWithJUnit - 2016.10.01 at 15h 39m 29s.xml">
+    <history-entry file="TestRunnerWithJUnit - 2016.10.03 at 01h 57m 35s.xml">
       <configuration name="TestRunnerWithJUnit" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunnerWithJUnit - 2016.10.01 at 15h 48m 04s.xml">
-      <configuration name="TestRunnerWithJUnit" configurationId="JUnit" />
+    <history-entry file="_Users_admin_Desktop_CucumberSelenium_SalaryCalc_src_test_resources_testng_xml - 2016.10.02 at 21h 27m 55s.xml">
+      <configuration name="/Users/admin/Desktop/CucumberSelenium/SalaryCalc/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunnerWithJUnit - 2016.10.01 at 15h 52m 34s.xml">
-      <configuration name="TestRunnerWithJUnit" configurationId="JUnit" />
+    <history-entry file="_Users_admin_Desktop_CucumberSelenium_SalaryCalc_src_test_resources_testng_xml - 2016.10.02 at 22h 37m 17s.xml">
+      <configuration name="/Users/admin/Desktop/CucumberSelenium/SalaryCalc/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunnerWithJUnit - 2016.10.01 at 15h 58m 38s.xml">
-      <configuration name="TestRunnerWithJUnit" configurationId="JUnit" />
+    <history-entry file="_Users_admin_Desktop_CucumberSelenium_SalaryCalc_src_test_resources_testng_xml - 2016.10.02 at 22h 39m 53s.xml">
+      <configuration name="/Users/admin/Desktop/CucumberSelenium/SalaryCalc/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunnerWithJUnit - 2016.10.01 at 16h 11m 44s.xml">
-      <configuration name="TestRunnerWithJUnit" configurationId="JUnit" />
+    <history-entry file="_Users_admin_Desktop_CucumberSelenium_SalaryCalc_src_test_resources_testng_xml - 2016.10.02 at 22h 41m 05s.xml">
+      <configuration name="/Users/admin/Desktop/CucumberSelenium/SalaryCalc/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunnerWithJUnit - 2016.10.01 at 16h 14m 23s.xml">
-      <configuration name="TestRunnerWithJUnit" configurationId="JUnit" />
+    <history-entry file="_Users_admin_Desktop_CucumberSelenium_SalaryCalc_src_test_resources_testng_xml - 2016.10.02 at 22h 41m 57s.xml">
+      <configuration name="/Users/admin/Desktop/CucumberSelenium/SalaryCalc/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunnerWithJUnit - 2016.10.01 at 16h 16m 28s.xml">
-      <configuration name="TestRunnerWithJUnit" configurationId="JUnit" />
+    <history-entry file="_Users_admin_Desktop_CucumberSelenium_SalaryCalc_src_test_resources_testng_xml - 2016.10.02 at 22h 43m 21s.xml">
+      <configuration name="/Users/admin/Desktop/CucumberSelenium/SalaryCalc/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunnerWithJUnit - 2016.10.01 at 16h 17m 32s.xml">
-      <configuration name="TestRunnerWithJUnit" configurationId="JUnit" />
+    <history-entry file="_Users_admin_Desktop_CucumberSelenium_SalaryCalc_src_test_resources_testng_xml - 2016.10.03 at 01h 51m 56s.xml">
+      <configuration name="/Users/admin/Desktop/CucumberSelenium/SalaryCalc/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunnerWithJUnit - 2016.10.02 at 21h 20m 28s.xml">
-      <configuration name="TestRunnerWithJUnit" configurationId="JUnit" />
+    <history-entry file="_Users_admin_Desktop_CucumberSelenium_SalaryCalc_src_test_resources_testng_xml - 2016.10.03 at 01h 53m 52s.xml">
+      <configuration name="/Users/admin/Desktop/CucumberSelenium/SalaryCalc/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_admin_Desktop_CucumberSelenium_SalaryCalc_src_test_resources_testng_xml - 2016.10.02 at 21h 23m 49s.xml">
+    <history-entry file="_Users_admin_Desktop_CucumberSelenium_SalaryCalc_src_test_resources_testng_xml - 2016.10.03 at 01h 55m 53s.xml">
       <configuration name="/Users/admin/Desktop/CucumberSelenium/SalaryCalc/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -1130,7 +1094,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12083333" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34826428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34826428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1252,8 +1216,8 @@
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1834#1835#0" expanded="true" />
+            <element signature="e#1863#1864#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1393,20 +1357,6 @@
     <entry file="file://$PROJECT_DIR$/WordPress/src/main/java/example/smoke/ExampleSmokeTest.java" />
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/config/ExampleConfig.java" />
     <entry file="file://$PROJECT_DIR$/SalaryCalc/src/test/java/smoke/WordPressExample.java" />
-    <entry file="file://$PROJECT_DIR$/SalaryCalc/src/test/java/smoke/MainPageSmokeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="32" column="98" selection-start-line="32" selection-start-column="98" selection-end-line="32" selection-end-column="98" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#405#406#0" expanded="false" />
-            <element signature="e#451#452#0" expanded="false" />
-            <element signature="e#501#502#0" expanded="false" />
-            <element signature="e#541#542#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SalaryCalc/src/test/resources/settings.xml" />
     <entry file="file://$PROJECT_DIR$/SalaryCalc/src/main/java/pageobj/MainPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1467,26 +1417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryCalc/src/test/java/cucumber/TestRunnerWithTestNG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryCalc/src/test/java/cucumber/TestRunnerWithJUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SalaryCalc/src/test/features/Smoke1.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -1500,34 +1430,6 @@
         <state relative-caret-position="264">
           <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryCalc/src/test/java/cucumber/stepdef/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="52" column="5" selection-start-line="20" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/config/BaseConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryCalc/src/test/java/cucumber/stepdef/StepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="194" column="100" selection-start-line="194" selection-start-column="100" selection-end-line="194" selection-end-column="100" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1579,11 +1481,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SalaryCalc/src/test/java/cucumber/TestRunnerWithTestNG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/config/BaseConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="56" column="54" selection-start-line="48" selection-start-column="8" selection-end-line="56" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SalaryCalc/src/test/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="69" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="69" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SalaryCalc/src/test/java/smoke/MainPageSmokeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SalaryCalc/src/test/java/cucumber/TestRunnerWithJUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SalaryCalc/src/test/java/cucumber/stepdef/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SalaryCalc/src/test/java/cucumber/stepdef/StepDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1834#1835#0" expanded="true" />
+            <element signature="e#1863#1864#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

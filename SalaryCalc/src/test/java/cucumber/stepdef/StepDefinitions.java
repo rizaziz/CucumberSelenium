@@ -6,9 +6,14 @@ import cucumber.api.java.*;;
 import cucumber.api.java.en.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.*;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import pageobj.*;
+
+import java.net.URL;
 import java.text.NumberFormat;
 import java.text.ParseException;
 import java.util.Map;
@@ -22,10 +27,20 @@ public class StepDefinitions {
     NumberFormat nf= null;
 
     @Before
-    public void setUp(){
+    public void setUp() throws Exception {
 
-        System.setProperty("webdriver.chrome.driver", "/Users/admin/Desktop/CucumberSelenium/Generic/src/main/resources/chromedriver");
-        driver=new ChromeDriver();
+        //System.setProperty("webdriver.chrome.driver", "/Users/admin/Desktop/CucumberSelenium/Generic/src/main/resources/chromedriver");
+        //driver=new ChromeDriver();
+
+        final String USERNAME="riz_mamura";
+        final String ACCESS_KEY="cfbe4bb9-aae8-45b9-9924-ea0992586dd9";
+        final String url="http://"+USERNAME+":"+ACCESS_KEY+"@ondemand.saucelabs.com:80/wd/hub";
+
+        DesiredCapabilities cap=DesiredCapabilities.chrome();
+        cap.setCapability("platform", "Windows XP");
+        cap.setCapability("version", "43.0");
+
+        driver=new RemoteWebDriver(new URL(url), cap);
 
         main=new MainPageObject(driver);
         input=new DataInputPage(driver);
