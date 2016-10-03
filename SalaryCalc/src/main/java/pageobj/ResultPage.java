@@ -28,6 +28,9 @@ public class ResultPage {
     @FindBy(xpath=".//*[@id='dijit_TitlePane_1_pane']/ul/li/div/span[2]")
     public WebElement net;
 
+    @FindBy(id="new")
+    public WebElement newCalc;
+
     public ResultPage(WebDriver driver){
         PageFactory.initElements(driver, this);
     }
