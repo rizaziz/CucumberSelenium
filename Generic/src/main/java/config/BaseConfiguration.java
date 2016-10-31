@@ -1,8 +1,12 @@
 package config;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxBinary;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -53,10 +57,27 @@ public class BaseConfiguration {
         DesiredCapabilities cap=DesiredCapabilities.chrome();
         cap.setCapability("platform", "Windows XP");
         cap.setCapability("version", "43.0");
+        //cap.setCapability();
+
+
+
 
         driver=new RemoteWebDriver(new URL(url), cap);
 
         return driver;
+    }
+
+
+    public WebDriver getFirefoxDriver(){
+
+        FirefoxProfile profile=null;
+        FirefoxBinary binary=null;
+        Capabilities cap=null;
+
+
+        driver=new FirefoxDriver();
+        return driver;
+
     }
 
 }

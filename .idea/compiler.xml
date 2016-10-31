@@ -24,12 +24,14 @@
         <processorPath useClasspath="true" />
         <module name="Generic" />
         <module name="SalaryCalc" />
+        <module name="Sudoku" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="CucumberSelenium" target="1.8" />
       <module name="Generic" target="1.8" />
       <module name="SalaryCalc" target="1.8" />
+      <module name="Sudoku" target="1.8" />
       <module name="WordPress" target="1.5" />
     </bytecodeTargetLevel>
   </component>

@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Knorrium.info - WordPress Demo" verbose="10" parallel="methods" thread-count="10">
+<suite name="PayCheckCity" verbose="10" parallel="methods" thread-count="10">
 
     <parameter name="selenium.driver" value="/Users/admin/Desktop/CucumberSelenium/Generic/src/main/resources/chromedriver"/>
     <parameter name="selenium.browser" value="webdriver.chrome.driver"/>
@@ -22,11 +22,18 @@
         </classes>
     </test>
 
-    <test name="JUnit tests" junit="true">
+    <test name="JUnit tests" junit="true" enabled="false">
         <classes>
             <class name="cucumber.TestRunnerWithJUnit"/>
         </classes>
 
     </test>
+
+    <test name="simple">
+        <classes>
+            <class name="smoke.SimpleTest"/>
+        </classes>
+    </test>
+
 
 </suite>

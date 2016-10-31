@@ -1,6 +1,7 @@
 package cucumber.stepdef;
 
 
+import com.sun.jna.platform.FileUtils;
 import cucumber.api.DataTable;
 import cucumber.api.java.*;;
 import cucumber.api.java.en.*;
@@ -13,10 +14,12 @@ import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import pageobj.*;
 
+import java.io.File;
 import java.net.URL;
 import java.text.NumberFormat;
 import java.text.ParseException;
 import java.util.Map;
+import java.util.Properties;
 
 public class StepDefinitions {
 
@@ -29,16 +32,34 @@ public class StepDefinitions {
     @Before
     public void setUp() throws Exception {
 
-        //System.setProperty("webdriver.chrome.driver", "/Users/admin/Desktop/CucumberSelenium/Generic/src/main/resources/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/admin/Desktop/CucumberSelenium/Generic/src/main/resources/chromedriver");
         //driver=new ChromeDriver();
 
-        final String USERNAME="riz_mamura";
-        final String ACCESS_KEY="cfbe4bb9-aae8-45b9-9924-ea0992586dd9";
-        final String url="http://"+USERNAME+":"+ACCESS_KEY+"@ondemand.saucelabs.com:80/wd/hub";
+        //final String USERNAME="riz_mamura";
+        //final String ACCESS_KEY="cfbe4bb9-aae8-45b9-9924-ea0992586dd9";
+        //final String url="http://"+USERNAME+":"+ACCESS_KEY+"@ondemand.saucelabs.com:80/wd/hub";
 
-        DesiredCapabilities cap=DesiredCapabilities.chrome();
-        cap.setCapability("platform", "Windows XP");
-        cap.setCapability("version", "43.0");
+        //final String USERNAME="azizjonrizayev1";
+        //final String ACCESS_KEY="nGLbBRYipRxRZumrHk7w";
+        //final String url="http://"+USERNAME+":"+ACCESS_KEY+"@hub.browserstack.com/wd/hub";
+
+
+        /*final String KEY="836547c630ee883ab3e0994c4315957e";
+        final String SECRET="2362691a51bd1364d44a738330f7f499";
+        final String url="http://"+KEY+":"+SECRET+"@hub.testingbot.com/wd/hub";*/
+
+
+        //Properties prop=System.getProperties ();
+        //prop.list(System.out);
+
+
+        final String url="http://localhost:4444/wd/hub";
+
+
+        DesiredCapabilities cap= new DesiredCapabilities();
+        cap.setBrowserName("chrome");
+        cap.setPlatform(Platform.MAC);
+
 
         driver=new RemoteWebDriver(new URL(url), cap);
 
@@ -80,94 +101,10 @@ public class StepDefinitions {
         return result;
     }
 
-    @Given("^Click the 'Salary Calculator' button$")
-    public void click_the_Salary_Calculator_button() throws Throwable {
-        main.btn_SalaryCalculator.click();
-    }
-
-    @When("^Clear and fill 'Check Date' field with \"([^\"]*)\"$")
-    public void clear_and_fill_Check_Date_field_with(String checkDate) throws Throwable {
-        clearAndFill(input.date, checkDate);
-    }
-
-    @When("^Clear and fill 'State for withholding' field with \"([^\"]*)\"$")
-    public void clear_and_fill_State_for_withholding_field_with(String state) throws Throwable {
-        clearAndFill(input.state, state);
-    }
-
-    @When("^Clear and fill 'Gross Pay' field with \"([^\"]*)\"$")
-    public void clear_and_fill_Gross_Pay_field_with(String grossPay) throws Throwable {
-        clearAndFill(input.gross, grossPay);
-    }
-
-    @When("^Clear and fill 'Gross Pay Type' field with \"([^\"]*)\"$")
-    public void clear_and_fill_Gross_Pay_Type_field_with(String grossPayType) throws Throwable {
-        clearAndFill(input.type, grossPayType);
-    }
-
-    @When("^Clear and fill 'Pay Frequency' field with \"([^\"]*)\"$")
-    public void clear_and_fill_Pay_Frequency_field_with(String payFrequency) throws Throwable {
-        clearAndFill(input.frequency, payFrequency);
-    }
-
-    @When("^Clear and fill 'Federal Filing Status' field with \"([^\"]*)\"$")
-    public void clear_and_fill_Federal_Filing_Status_field_with(String filingStatus) throws Throwable {
-        clearAndFill(input.status, filingStatus);
-    }
-
-    @When("^Clear and fill '# of Federal Allowances' field with \"([^\"]*)\"$")
-    public void clear_and_fill_of_Federal_Allowances_field_with(String numberOfAllowances) throws Throwable {
-        clearAndFill(input.allowances, numberOfAllowances);
-    }
-
-    @When("^Click on button 'Calculate'$")
-    public void click_on_button_Calculate() throws Throwable {
-        input.btnCalc.click();
-    }
-
-    @When("^Wait till the result page loads$")
-    public void wait_till_the_result_page_loads() throws Throwable {
-        WebDriverWait wait=new WebDriverWait(driver, 20);
-        wait.until(ExpectedConditions.elementToBeClickable(result.newCalc));
-    }
-
-    @Then("^'Weekly Gross Pay' is \"([^\"]*)\"$")
-    public void weekly_Gross_Pay_is(String grossPay) throws Throwable {
-        Double actual=nf.parse(result.gross.getText()).doubleValue();
-        Double expected=Double.valueOf(grossPay);
-        Assert.assertEquals(actual, expected, 1);
-    }
-
-    @Then("^'Federal Withholding' is \"([^\"]*)\"$")
-    public void federal_Withholding_is(String fedTax) throws Throwable {
-        Double actual=nf.parse(result.federal.getText()).doubleValue();
-        Double expected=Double.valueOf(fedTax);
-        Assert.assertEquals(actual, expected, 1);
-    }
-
-    @Then("^'Social Security' is \"([^\"]*)\"$")
-    public void social_Security_is(String ssnTax) throws Throwable {
-        Double actual=(Double)nf.parse(result.ssn.getText()).doubleValue();
-        Double expected=Double.valueOf(ssnTax);
-        Assert.assertEquals(actual, expected, 1);
-    }
-
-    @Then("^'Medicare' is \"([^\"]*)\"$")
-    public void medicare_is(String medicareTax) throws Throwable {
-        Double actual=(Double)nf.parse(result.medicare.getText()).doubleValue();
-        Double expected=Double.valueOf(medicareTax);
-        Assert.assertEquals(actual, expected, 1);
-    }
-
-    @Then("^'State' tax is \"([^\"]*)\"$")
-    public void state_tax_is(String stateTax) throws Throwable {
-        Double actual=(Double)nf.parse(result.state.getText()).doubleValue();
-        Double expected=Double.valueOf(stateTax);
-        Assert.assertEquals(actual, expected, 1);
-    }
-
     @Given("^Click on the 'Salary Calculator' button$")
     public void click_on_the_Salary_Calculator_button() throws Throwable {
+        //File file=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        //org.apache.commons.io.FileUtils.copyFile(file, new File("/Users/admin/Desktop/scsh.png"));
         main.btn_SalaryCalculator.click();
     }
 
@@ -188,6 +125,8 @@ public class StepDefinitions {
 
     @When("^Click button 'Calculate'$")
     public void click_button_Calculate() throws Throwable {
+        //File file=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        //org.apache.commons.io.FileUtils.copyFile(file, new File("/Users/admin/Desktop/input.png"));
         input.btnCalc.click();
     }
 
@@ -208,6 +147,9 @@ public class StepDefinitions {
         Assert.assertEquals(nf.parse(result.ssn.getText()).doubleValue(), res.get("SSN"), 1);
         Assert.assertEquals(nf.parse(result.medicare.getText()).doubleValue(), res.get("Medicare"), 1);
         Assert.assertEquals(nf.parse(result.state.getText()).doubleValue(), res.get("StateTax"), 1);
+
+        //File file=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        //org.apache.commons.io.FileUtils.copyFile(file, new File("/Users/admin/Desktop/result.png"));
 
     }
 
